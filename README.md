@@ -1,6 +1,6 @@
 # OptiText
 
-OCR treinado do zero para reconhecer texto em documentos escaneados/impressos — da arquitetura ao treinamento, sem depender de bibliotecas prontas como Tesseract ou EasyOCR.
+OCR para reconhecer texto em documentos escaneados/impressos. Usa Tesseract nesta fase inicial, com plano de evoluir para um modelo de deep learning treinado do zero.
 
 * [GitHub](https://github.com/iuryrdns/OptiText/)
 * Autor: [Iury Ruan do N. Santos](https://github.com/iuryrdns)
@@ -8,7 +8,7 @@ OCR treinado do zero para reconhecer texto em documentos escaneados/impressos �
 
 ## Status do projeto
 
-**Em desenvolvimento.** A etapa atual é o pipeline de pré-processamento de imagem; o modelo de reconhecimento de texto (deep learning) é o próximo passo.
+🚧 **Em desenvolvimento.** Reconhecimento de texto via Tesseract nesta fase; um modelo de deep learning treinado do zero é o objetivo de longo prazo.
 
 ## Features
 
@@ -22,8 +22,10 @@ Implementado:
 - CLI (`optitext`) para rodar o pipeline
 - Notebook de experimentação (`app.ipynb`)
 
+- Leitura de imagem via OpenCV e reconhecimento de texto via Tesseract (etapa inicial)
+
 Planejado:
-- Arquitetura de deep learning para reconhecimento de texto, treinada do zero
+- Arquitetura de deep learning para reconhecimento de texto, treinada do zero (substituindo o Tesseract)
 - Pipeline de treinamento e avaliação
 - Dataset de treino/validação para documentos escaneados/impressos
 
